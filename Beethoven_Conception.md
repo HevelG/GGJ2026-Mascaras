@@ -5,35 +5,35 @@ Como Director Ejecutivo del proyecto **GGJ2026Mask**, presento la base estratég
 ---
 
 ## 👁️ 1. Visión del Juego
-> "Un juego de acción rítmica y movimiento constante donde el jugador debe intercambiar máscaras de la cultura mexicana para transformar su entorno y pintar una obra maestra viviente mientras nunca deja de correr."
+> "Un juego de exploración metroidvania top-down con un enfoque en la cultura mexicana, donde el jugador intercambia máscaras para adquirir habilidades únicas para interactuar con su entorno, el estilo artistico sera pixelart 2.5D, se podrá dejar de correr pero eso facilitará el ataque de enemigos, al finalizar cada nivel las máscaras se colocarán sobre una pared para formar una obra maestra."
 
 ---
 
 ## ♾️ 2. Core Loop (3 Pasos)
-1. **Correr e Identificar:** El jugador se mueve sin detenerse por un escenario gris, identificando obstáculos que solo pueden superarse con una máscara específica.
-2. **Intercambiar y Actuar:** Cambiar de máscara (Ejem: Máscara de Jaguar para velocidad, Máscara de Calavera para atravesar muros) para interactuar con el entorno.
-3. **Plasmado de Arte:** Cada acción exitosa deja un rastro de color y patrones artísticos en el suelo/muros, culminando en un cuadro monumental al final del nivel.
+1. **Explorar y Descubrir:** Navegar por un entorno metroidvania 2.5D buscando nuevas áreas bloqueadas por obstáculos ambientales.
+2. **Habilitar y Resolver:** Intercambiar máscaras para obtener la habilidad necesaria (ej. Máscara de Lucha para mover bloques, Máscara de Alebrije para salto doble) mientras te mantienes en movimiento para evitar el asedio enemigo.
+3. **Coleccionar y Consagrar:** Al final de cada zona, colocar la máscara obtenida en el "Mural del Destino" para completar la obra maestra final.
 
 ---
 
 ## 🛡️ 3. Límites NO-Negociables (Alcance)
-1. **Mecánica Única:** El movimiento es automático (hacia adelante). El jugador solo controla la dirección y el cambio de máscara.
-2. **Contenido:** Máximo 3 máscaras distintas con 3 habilidades claras.
-3. **Escenario:** Un solo nivel largo y procedural (o semi-procedural) que termine en la "exhibición" de la obra creada.
+1. **Estilo Visual:** Pixel Art 3D (Billboard sprites en entorno 3D) para lograr el look 2.5D en Unreal.
+2. **Estructura:** 3 áreas interconectadas (Temple, Village, Spirit World) con 3 máscaras de progresión.
+3. **Presión de Movimiento:** Implementar un sistema de "Amenaza" que sube cuando el jugador está estático, aumentando el spawn o agresividad de los enemigos.
 
 ---
 
 ## ✅ 4. Validación de Diversificadores
-- **🖼️ Obra Maestra:** Se cumple mediante el rastro de color que deja el jugador, generando una imagen final única al terminar.
-- **🇲🇽 Quédate en Casa:** Estética basada en máscaras de madera tradicionales (Jaguar, Diablos de Chilapa, Parachicos).
-- **🏃 Piedra que rueda...:** El sistema Top Down se modificará para que el personaje nunca se detenga (estilo *infinite runner* pero con libertad de dirección).
-- **🌈 Diverso:** Sincronía total de los 3 anteriores.
+- **🖼️ Obra Maestra:** Se cumple al formar un mural físico al final de cada nivel con las máscaras recolectadas.
+- **🇲🇽 Quédate en Casa:** Ambientación basada en el folclore mexicano y el simbolismo de las máscaras ceremoniales.
+- **🏃 Piedra que rueda...:** Penalización táctica por quedarse quieto (los enemigos atacan con más frecuencia).
+- **🌈 Diverso:** Alineación de los 3 objetivos anteriores bajo una estructura Metroidvania.
 
 ---
 
 ## 🚦 Decisión de Dirección
-**Estado:** Esperando aprobación del equipo humano.
-**Riesgo Detectado:** La generación de la "Obra Maestra" final requiere una captura de cámara cenital al final del nivel para guardarla como imagen. Carmack (Programación) debe validar esto.
+**Estado:** Esperando aprobación de la versión refinada.
+**Sugerencia:** Carmack (Programación) debe investigar el sistema de billboarding para el Pixel Art 2.5D y la lógica de "Amenaza" por inactividad.
 
 ---
 *Firma: Beethoven - Director Ejecutivo*
