@@ -1,0 +1,25 @@
+# Unreal Engine .gitignore
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.DS_Store
+*.shk
+
+# Built-in plugins
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Packages
+*.7z
+*.zip
+*.rar
