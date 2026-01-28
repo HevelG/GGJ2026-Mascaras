@@ -5,35 +5,52 @@ Como Director Ejecutivo del proyecto **GGJ2026Mask**, presento la base estratég
 ---
 
 ## 👁️ 1. Visión del Juego
-> "Un juego de exploración metroidvania top-down con un enfoque en la cultura mexicana, donde el jugador intercambia máscaras para adquirir habilidades únicas para interactuar con su entorno, el estilo artistico sera pixelart 2.5D, se podrá dejar de correr pero eso facilitará el ataque de enemigos, al finalizar cada nivel las máscaras se colocarán sobre una pared para formar una obra maestra."
+> "Metroidvania top-down 2.5D de folclore mexicano. El jugador restaura un Mural sagrado entregando máscaras en un Gran Altar. Cada máscara otorgada concede una habilidad divina necesaria para avanzar."
 
 ---
 
 ## ♾️ 2. Core Loop (3 Pasos)
-1. **Explorar y Descubrir:** Navegar por un entorno metroidvania 2.5D buscando nuevas áreas bloqueadas por obstáculos ambientales.
-2. **Habilitar y Resolver:** Intercambiar máscaras para obtener la habilidad necesaria (ej. Máscara de Lucha para mover bloques, Máscara de Alebrije para salto doble) mientras te mantienes en movimiento para evitar el asedio enemigo.
-3. **Coleccionar y Consagrar:** Al final de cada zona, colocar la máscara obtenida en el "Mural del Destino" para completar la obra maestra final.
+1. **Explorar y Descubrir:** Navegar por un entorno metroidvania buscando máscaras ocultas en los biomas.
+2. **Consagrar y Trascender:** Llevar la máscara al **Altar**. Al colocarla, el jugador adquiere permanentemente la habilidad de ese tótem para **toda la partida**.
+3. **Sinergia Ritual (Combos):** Encadenar las habilidades (ej. Dash de Jaguar -> Fase de Calavera -> Levitación Águila) para flujo y velocidad máxima.
 
 ---
 
-## 🛡️ 3. Límites NO-Negociables (Alcance)
-1. **Estilo Visual:** Pixel Art 3D (Billboard sprites en entorno 3D) para lograr el look 2.5D en Unreal.
-2. **Estructura:** 3 áreas interconectadas (Temple, Village, Spirit World) con 3 máscaras de progresión.
-3. **Presión de Movimiento:** Implementar un sistema de "Amenaza" que sube cuando el jugador está estático, aumentando el spawn o agresividad de los enemigos.
+## 🎭 3. Las 5 Máscaras Sagradas
+1.  **Ocelotl (Jaguar):** *El Guerrero.* Habilidad de ataque principal y daño cuerpo a cuerpo. **[Click Izquierdo]**.
+2.  **Cuauhtli (Águila):** *El Señor de las Alturas.* Permite levitar y planear sobre acantilados y peligros del suelo. **[Mantener Barra Espaciadora]**.
+3.  **Miquiztli (Calavera):** *El Caminante del Mictlán.* Aumenta la velocidad de movimiento y permite entrar en fase espiritual para atravesar objetos y muros específicos. **[Mantener Shift]**.
+4.  **Axolotl (Ajolote):** *El Aliento de Vida.* Recuperación pasiva de salud gradual durante la exploración. **[Pasiva]**.
+5.  **Quetzalcóatl (Serpiente Alada):** *El Juicio del Cielo.* El personaje despliega alas para realizar un salto alto seguido de un golpe radial contra el suelo (Smash). **[Tecla E]**. 
 
 ---
 
-## ✅ 4. Validación de Diversificadores
-- **🖼️ Obra Maestra:** Se cumple al formar un mural físico al final de cada nivel con las máscaras recolectadas.
-- **🇲🇽 Quédate en Casa:** Ambientación basada en el folclore mexicano y el simbolismo de las máscaras ceremoniales.
-- **🏃 Piedra que rueda...:** Penalización táctica por quedarse quieto (los enemigos atacan con más frecuencia).
-- **🌈 Diverso:** Alineación de los 3 objetivos anteriores bajo una estructura Metroidvania.
+## 💀 4. El Bestiario (5 Amenazas)
+1.  **Sombra Estática:** Se activa si el flujo de movimiento se corta.
+2.  **Guardián de Obsidiana:** Solo puede ser destruido por el ataque de fuerza de **Ocelotl**.
+3.  **Centinela de Viento:** Solo superable usando la levitación de **Cuauhtli** o el Smash de **Quetzalcóatl**.
+4.  **Acechador de la Celva:** Requiere la velocidad de **Miquiztli** para ser evadido.
+5.  **Ánima en Pena:** Solo puede ser atravesada o evadida usando el cambio de fase de **Miquiztli**.
 
 ---
 
+## 🏁 5. El Clímax: El Gran Engañador
+*   **El Altar:** Al colocar la 5ta máscara, el Mural del Destino se ilumina, pero en lugar de bendecir al pueblo, se agrieta. 
+*   **Plot Twist:** El jugador ha sido manipulado por una voz "guía" para reunir las llaves del sello. 
+*   **Boss Final:** Una amalgama de sombras que utiliza versiones corruptas de tus 5 habilidades. Debes usar tus combos de máscaras para contrarrestar sus ataques.
+
+---
+
+## ✅ 6. Validación de Diversificadores
+- **🖼️ Obra Maestra:** El Mural del Destino se completa visualmente, revelando la verdadera cara del enemigo.
+- **🇲🇽 Quédate en Casa:** Estética 100% prehispánica y folclórica.
+- **🏃 Piedra que rueda...:** Implementado mediante la **Sinergia Ritual**. El movimiento fluido y los combos son la llave para la supervivencia y el ataque.
+- **🌈 Diverso:** Estructura Metroidvania con progresión basada en el Altar.
+
+---
 ## 🚦 Decisión de Dirección
-**Estado:** Esperando aprobación de la versión refinada.
-**Sugerencia:** Carmack (Programación) debe investigar el sistema de billboarding para el Pixel Art 2.5D y la lógica de "Amenaza" por inactividad.
+**Estado:** Pendiente de revisión final.
+**Siguiente Paso:** Carmack debe prototipar el sistema de "Combo Velocity" para asegurar que cambiar de máscara no detenga al jugador.
 
 ---
 *Firma: Beethoven - Director Ejecutivo*
